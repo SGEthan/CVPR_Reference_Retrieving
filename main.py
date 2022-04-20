@@ -1,6 +1,7 @@
 from utils import *
 
 
+# GUI with Gooey
 @Gooey(program_name="Reference Downloader")
 def main():
     parser = GooeyParser(description="Choose a pdf file to retrieve its references")
